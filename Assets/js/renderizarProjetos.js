@@ -9,7 +9,7 @@ const listaProjetos = [
   },
   {
     titulo: "Site para Psicólogos e Coachings",
-    imagem: "./Assets/img/psico.png",
+    imagem: "./Assets/img/psico.jpg",
     descricao:
       "Exemplo de um projeto de Psicólogo/Coaching para mostrar mais de seus serviços para as pessoas. Projeto construído para um consultório!",
     tecnologias: "Html, Css",
