@@ -5,7 +5,7 @@ const listaProjetos = [
     descricao:
       "Site responsivo de um Petshop. Projeto construído para uma empresa de PetShop visando agilidade no atendimento.",
     tecnologias: "Html, Css, Js",
-    link: "https://github.com/ek1l",
+    link: "https://petshop-freela.pages.dev/",
   },
   {
     titulo: "Site para Psicólogos e Coachings",
@@ -13,7 +13,7 @@ const listaProjetos = [
     descricao:
       "Exemplo de um projeto de Psicólogo/Coaching para mostrar mais de seus serviços para as pessoas. Projeto construído para um consultório!",
     tecnologias: "Html, Css",
-    link: "https://github.com/ek1l",
+    link: "https://consultorio-freela.pages.dev/",
   },
   {
     titulo: "Projeto Instituto Hora",
@@ -21,7 +21,7 @@ const listaProjetos = [
     descricao:
       "Site criado para uma plataforma de cursos / marketing digital. Uma landingpage com design atual, moderno e responsivo.",
     tecnologias: "Html, Css, JS.",
-    link: "https://github.com/ek1l",
+    link: "https://instituto-hora-freela.pages.dev/",
   },
   {
     titulo: "Projeto página de Login",
