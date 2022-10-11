@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/styles/reset.css">
+    <link rel="stylesheet" href="Assets/styles/styles.css">
+    <link rel="stylesheet" href="Assets/styles/header.css">
+    <link rel="stylesheet" href="Assets/styles/banner.css">
+    <link rel="stylesheet" href="Assets/styles/sobre.css">
+    <link rel="stylesheet" href="Assets/styles/experiencia.css">
+    <link rel="stylesheet" href="Assets/styles/projetos.css">
+    <link rel="stylesheet" href="Assets/styles/footer.css">
+    <link rel="shortcut icon" href="./Assets/img/msedge_fijcmCqFsa.png" type="image/x-icon">
+    <title>Leonardo Duarte - Ek1l</title>
+</head>
+
+<body  onload="renderizarProjetos()">
+    <header class="header">
+        <div class="header__container container">
+            <a href="#" class="header__logo">EK1L</a>
+            <nav class="header__navegacao">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="#">Home</a></li>
+                    <li class="header__item"><a href="#sobre">Sobre mim</a></li>
+                    <li class="header__item"><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner__container container">
+                <h1 class="banner__titulo">Olá, eu sou <br><em>Leonardo Duarte</em><br> Estudante na área de
+                    desenvolvimento.</h1>
+                <div class="banner__buttons">
+                    <a href="https://www.linkedin.com/in/leonardo-duarte-10a834201/" target="_blank" title="Ver perfil no LinkedIn"
+                        class="btn-padrao btn-padrao-purple" alt="Ver perfil no LinkedIn"><i
+                            class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
+                    <a href="https://github.com/ek1l" target="_blank" class="btn-padrao btn-padrao-pink"
+                        title="Ver perfil no GitHub" alt="Ver perfil no GitHub"><i
+                            class="fa-brands fa-github"></i>GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="sobre__container container">
+
+                <img class="sobre__imagem" src="Assets/img/fotinha-de-mim.jpeg"
+                    title="Foto de um menino em busca de uma vaguinha pra estágio/trainee/dev jr. xD"
+                    alt="Imagem do autor do portifólio">
+                <div class="sobre__conteudo">
+               <h2 class="sobre__titulo">Sobre Mim</h2>
+                    <h3 class="sobre__subtitulo">Sete Lagoas - MG, Brasil</h3>
+                    <p class="sobre__paragrafo">Sou estudante na área de desenvolvimento. Também estou em um curso DevQuest
+                        Full-Stack, além de estudar alguns conteúdos a parte na internet. Já estudei um
+                        pouco de Front-End ( HTML, CSS, JS ).</p>
+                    <ul class="sobre__links">
+                        <a href="https://www.instagram.com/ek1l_/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/leonardo-duarte-10a834201/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ek1l" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=5531998954830&text=Ol%C3%A1" target="_blank"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <div class="projetos__container container">
+                <h2 class="projetos__titulo">Projetos</h2>
+                <div class="projetos__cards"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <span>@ 2022 - Leonardo Duarte</span>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/e9f8d84179.js" crossorigin="anonymous"></script>
+    <script src="./Assets/js/index.js"></script>
+    <script src="./Assets/js/renderizarProjetos.js"></script>
+</body>
+</html>
+
