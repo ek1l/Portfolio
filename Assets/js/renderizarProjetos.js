@@ -31,7 +31,7 @@ const listaProjetos = [
     link: "https://github.com/ek1l/pagina-de-login-roxa",
   },
   {
-    titulo: "Projeto página de Login",
+    titulo: "Projeto Vidraçaria Borges",
     imagem: "./Assets/img/vidracaria.png",
     descricao: "Página feita para uma vidraçaria. Site criado para falar mais sobre os serviços da empresa.",
     tecnologias: "Html, Css, JS",
