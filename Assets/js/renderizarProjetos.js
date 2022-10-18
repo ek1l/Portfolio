@@ -37,6 +37,13 @@ const listaProjetos = [
     tecnologias: "Html, Css, JS",
     link: "https://vidracariaborges.pages.dev/",
   },
+  {
+    titulo: "Projeto Figma / site de carros",
+    imagem: "./Assets/img/site-car.png",
+    descricao: "Página feita para estudo usando exemplo do Figma.",
+    tecnologias: "Html, Css, JS",
+    link: "https://ek1lcars.pages.dev/",
+  },
 ];
 
 function renderizarProjetos() {
