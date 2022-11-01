@@ -44,6 +44,39 @@ const listaProjetos = [
     tecnologias: "Html, Css, JS",
     link: "https://ek1lcars.pages.dev/",
   },
+
+
+  {
+    titulo: "Projeto Quality Glass",
+    imagem: "./Assets/img/quality.jpg",
+    descricao: "Projeto feito para uma empresa de acabamentos. ",
+    tecnologias: "Html, Css, JS",
+    link: "https://qualityglass.pages.dev/",
+  },
+
+  {
+    titulo: "Projeto Truly Nolen",
+    imagem: "./Assets/img/truly.png",
+    descricao: "Projeto desenvolvido para a empresa Truly Nolen, voltado para mostrar seus serviços e profissionalismo contra pragas. ",
+    tecnologias: "Html, Css, JS",
+    link: "https://trulynolen.pages.dev/",
+  },
+
+  {
+    titulo: "Projeto LK Marmoraria",
+    imagem: "./Assets/img/marmoraria.png",
+    descricao: "Site feito para a empresa LK Marmoraria falar mais da empresa e mostrar seu trabalho.",
+    tecnologias: "Html, Css, JS",
+    link: "https://marmoraria.pages.dev/",
+  },
+
+  {
+    titulo: "Projeto RB Pinturas",
+    imagem: "./Assets/img/rb.png",
+    descricao: "Site feito para a empresa RB Pinturas mostrar fotos de seuus produtos e falar mais sobre a empresa. ",
+    tecnologias: "Html, Css, JS",
+    link: "https://ek1l.github.io/rbpinturas/",
+  },
 ];
 
 function renderizarProjetos() {
